@@ -5,7 +5,6 @@ define( "DEVVN_DEV_MODE" ,true);
 if( class_exists('acf') ) { 
 	define('GOOLE_MAPS_API', get_field('google_maps_api','option'));
 }
-
 require_once get_template_directory() . '/inc/class-tgm-plugin-activation.php';
 require get_template_directory() . '/inc/aq_resizer.php';
 require get_template_directory() . '/inc/copyright/copyright_svl.php';
